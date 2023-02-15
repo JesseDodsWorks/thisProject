@@ -14,11 +14,8 @@
     background-color: #515EFF;
 }
 
-.grid-container {
-    display: grid;
-}
-
-.page_container{
+/* Navbar */
+.nav_container{
     width:auto;
     height: 75px;
     padding-left: 20%;
@@ -33,3 +30,41 @@
 #nav_logo{
     margin-right: 50px;
 }
+
+/* Main */
+.main_container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 1000px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 75px;
+    padding: 10px;
+
+}
+
+.postboard{
+    height:100px;
+    margin: 10px;
+    padding:5px;
+}
+
+.main_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: auto;
+    margin: 10px;
+    padding:5px;
+}
+
+.post{
+    border:1px solid black;
+    width: 550px;
+    height: 250px;
+    margin:10px;
+}
+/* Footer */
+
