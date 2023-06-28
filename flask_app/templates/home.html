@@ -10,48 +10,20 @@
     <title>Home</title>
 </head>
 <body>
-  <!-- Navbar -->
-  <div class="nav_container box1 fixed-top shadow navbar-expand-xl d-flex justify-content-center align-items-center">
+  <h2>HOME PAGE</h2>
+  <form  action="/sendemail" method="post">
+    <label for="email">email</label>
+    <input name="email" type="text">
 
-    <ul class="navbar-nav ">
-      <li id="nav_logo" class="nav-item">
-        <a class="nav-link" href="#"> <img src="#" alt="Logo_Here"> </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">ORDER ONLINE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">MENU</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">COUPONS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">SIGN IN</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">CART</a>
-      </li>
-    </ul>
-  </div>
-  <!-- Main -->
-  <div class="main_container box5">
-    <!-- postboard - left -->
-    <div class="box2 postboard col-sm-3 shadow">
-      <h4>Postboard</h4>
-    </div>
-    <!-- main content - center -->
-    <div class="box3 main_content col-sm-8 shadow">
-      <h4>Content Thred</h4>
+    <label for="subject">Question, Comment, Concern</label>
+    <input name="subject" type="text">
 
-      <!-- Example Post -->
-      <div class="post"></div>
-      <div class="post"></div>
-      <div class="post"></div>
+    <label for="description">What's going on?</label>
+    <textarea name="description"  cols="30" rows="10"></textarea>
 
-    </div>
-  </div>
-  <!-- Footer -->
+    <button type="submit">submit</button>
+  </form>
+
 </body>
 </html>
 
